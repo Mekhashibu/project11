@@ -1,4 +1,4 @@
-n=int(input("Enter the limit:"))
+d=int(input("Enter the limit:"))
 i=1
 while i<0:
     j=1
