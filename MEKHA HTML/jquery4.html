@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>jQuery program</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<h1>jquery program button click</h1>
+<button id='togglebutton'>Click</button>
+<p id='togglepara' >hai mekha</p>
+<button id='toggleshow'>show</button>
+<button id='togglehide'>hide</button>
+
+<script>
+$(document).ready(function() {
+ $("#togglebutton").click(function(){
+ 
+  $("#togglepara").text("new content");
+    });
+  $("#toggleshow").click(function(){
+ $("#togglepara").show();
+  });
+ $("#togglehide").click(function(){
+ $("#togglepara").hide();
+ });
+    });
+ 
+ </script>
+ </body>
+ </html>
